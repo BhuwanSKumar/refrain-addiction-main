@@ -1,0 +1,60 @@
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .local-video {
+    max-width: 150px;
+    margin-right: 10px;
+  }
+  
+  .remote-video {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .participant-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .leave-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .leave-button:hover {
+    background-color: #cc0000;
+  }
+  
+  .control-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .control-button.off {
+    background-color: #dc3545;
+  }
+  
+  .control-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .control-button.off:hover {
+    background-color: #c82333;
+  }
+  

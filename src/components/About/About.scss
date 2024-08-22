@@ -1,0 +1,67 @@
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+#heading_how_div {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+}
+
+#heading_how {
+    position: relative;
+    font-size: 2.0em;
+    margin-bottom: 30px;
+    color: wheat;
+    background: rgb(96, 127, 213);
+
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.how_to_use {
+    max-width: 60vw;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    block-size: fit-content;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.how_to_use::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    padding: 3px;
+    background: rgb(96, 127, 213);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.text_how_to_uses {
+    text-align: left;
+    color: rgb(96, 127, 213);
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 30px;
+    margin-right: 30px;
+    block-size: fit-content;
+}
+
+.number_color {
+    color: rgb(96, 127, 213);
+}

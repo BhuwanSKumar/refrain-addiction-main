@@ -1,0 +1,13 @@
+
+{
+    "manifest_version": 3,
+    "name":"refrain-devices",
+    "version":"0.0.1",
+    "content_scripts":[
+         {
+            "matches":["<all_urls>"],
+            "js":["main.js"]
+         }
+    ]
+
+}

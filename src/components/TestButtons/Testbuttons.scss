@@ -1,0 +1,403 @@
+.button_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttons_heading {
+    position: relative;
+    top: 10.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.buttons {
+    margin-top: 11.6em;
+    display: grid;
+    margin-left: 5vw;
+    grid-template-columns: repeat(3, 15vw);
+    justify-content: space-between;
+    gap: 0px 100px;
+    color: rgb(164, 164, 252);
+}
+
+button:nth-child(n) {
+    margin-bottom: 5vh;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+/*youtube button*/
+// button:nth-child(1) {
+//     background: url(../../assets/youtube_color.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+// button:nth-child(1):hover {
+//     background: url(../../assets/youtube_white.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+#you {
+    position: relative;
+    font-size: 22px;
+    margin-left: 10px;
+    bottom: 18px;
+}
+
+/*facebook button*/
+// button:nth-child(2) {
+//     background: url(../../assets/facebook_color.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+// button:nth-child(2):hover {
+//     background: url(../../assets/facebook_white.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+#face {
+    position: relative;
+    font-size: 22px;
+    margin-left: 20px;
+    bottom: 18px;
+}
+
+/*discord button*/
+// button:nth-child(3) {
+//     background: url(../../assets/discord_color.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+// button:nth-child(3):hover {
+//     background: url(../../assets/discord_white.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+#dis {
+    position: relative;
+    font-size: 22px;
+    margin-left: 10px;
+    bottom: 13px;
+}
+
+// /*instagram button*/
+// button:nth-child(4) {
+//     background: url(../../assets/insta_color.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+// button:nth-child(4):hover {
+//     background: url(../../assets/insta_white.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+#insta {
+    position: relative;
+    font-size: 22px;
+    margin-left: 30px;
+    bottom: 13px;
+}
+
+/*prime video button*/
+// button:nth-child(5) {
+//     background: url(../../assets/prime_color.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+// button:nth-child(5):hover {
+//     background: url(../../assets/prime_white.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+#prime {
+    position: relative;
+    font-size: 22px;
+    margin-left: 50px;
+    bottom: 13px;
+}
+
+/*hotstar button*/
+// button:nth-child(6) {
+//     background: url(../../assets/hotstar_color.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+// button:nth-child(6):hover {
+//     background: url(../../assets/hotstar_white.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+#hot {
+    position: relative;
+    font-size: 22px;
+    margin-left: 7px;
+    bottom: 13px;
+}
+
+/*netflix button*/
+// button:nth-child(7) {
+//     background: url(../../assets/netflix_color.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+// button:nth-child(7):hover {
+//     background: url(../../assets/netflix_white.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 45px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+#net {
+    position: relative;
+    font-size: 22px;
+    margin-left: -20px;
+    bottom: 13px;
+}
+
+/*voot button*/
+// button:nth-child(8) {
+//     background: url(../../assets/voot_color.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 50px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+// button:nth-child(8):hover {
+//     background: url(../../assets/voot_white.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 50px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+#voo {
+    position: relative;
+    font-size: 22px;
+    margin-left: 0px;
+    bottom: 13px;
+}
+
+/*sony liv button*/
+// button:nth-child(9) {
+//     background: url(../../assets/sonyliv_color.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 40px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+// button:nth-child(9):hover {
+//     background: url(../../assets/sonyliv_white.png) no-repeat;
+//     align-items: center;
+//     justify-content: center;
+//     background-size: 40px;
+//     cursor: pointer;
+//     border: none;
+// }
+
+#sony {
+    position: relative;
+    font-size: 22px;
+    margin-left: 20px;
+    bottom: 13px;
+}
+
+.custom_url_div {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* align-items: center; */
+    transition: all 1s ease-in-out;
+}
+
+#custom_url {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(20, 11, 35);
+    font-size: .8rem;
+    margin: 0 auto;
+    background: 0;
+    border: 1px solid rgba(87, 123, 221, 1);
+    width: 19rem;
+    max-width: 25vw;
+    max-height: 3.7vh;
+    transition: all 0.3s;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#custom_url_add_button {
+    padding-top: 100px;
+    margin-left: 3vw;
+    border: none;
+    color: rgb(20, 11, 35);
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    background:  rgb(96, 127, 213);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#custom_url_add_button:hover {
+    background: rgb(44, 83, 212);
+}
+
+.candd {
+    transition: all 1s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vh;
+}
+
+#create_download {
+    margin-top: 30px;
+    width: 40vw;
+    border-radius: 4px;
+    background: rgb(96, 127, 213);
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    border: none;
+    color: rgb(20, 11, 35);
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#create_download:hover {
+    background: rgb(44, 83, 212);
+    font-size: 20px;
+}
+
+.white {
+    color: rgb(96, 127, 213);
+}
+
+.orange {
+    color: red;
+}
+
+
+
+@media only screen and (max-width: 1177px) {
+    .buttons {
+        margin-top: 15em;
+        display: grid;
+        grid-template-columns: repeat(2, 14vw);
+        justify-content: space-between;
+
+        width: 60vw;
+        margin-right: 20vw;
+        margin-left: 20vw;
+        gap: 0px 70px;
+        color: wheat;
+
+
+    }
+
+    #you,
+    #face,
+    #dis,
+    #prime,
+    #net,
+    #voo,
+    #sony,
+    #hot,
+    #insta {
+        position: relative;
+        font-size: 22px;
+        margin-left: 44px;
+        bottom: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    #custom_url,
+    #custom_url_add_button {
+        max-width: 50vw;
+        max-height: 5.5vh;
+    }
+
+    #create_download {
+        max-width: 85vw;
+        max-height: 12.5vh;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    #create_download {
+        max-width: 90vw;
+        max-height: 6.5vh;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+
+}
