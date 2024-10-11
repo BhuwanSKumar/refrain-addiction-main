@@ -606,12 +606,12 @@ function Landing() {
         {/* footer */}
         <footer>
           <div className="container">
-            <div className="row footer-top">
-              <div className="col-lg-4 footer-grid_section_w3layouts">
+            <div className="row footer-top mr-4 ml-4">
+              <div className="col-lg-3 footer-grid_section_w3layouts">
                 <h2 className="logo-2 mb-lg-4 mb-3">
                   <div className="flex">
                     <img src={sbIcon} width={35} alt="" />
-                    <a href="/" className="mx-2 mt-2">
+                    <a href="/" className="mx-1 mt-2">
                       Refrain Addiction
                     </a>
                   </div>
@@ -668,7 +668,7 @@ function Landing() {
                     </button>
                   </form>
                 </div>
-                <div className="row mt-lg-4 bottom-w3layouts-sec-nav mx-0">
+                <div className="row mt-lg-4 bottom-w3layouts-sec-nav ">
                   <div className="col-md-4 footer-grid_section_w3layouts">
                     <h3 className="footer-title mb-lg-4 mb-3">Information</h3>
                     <ul className="list-unstyled w3layouts-icons">
@@ -715,14 +715,14 @@ function Landing() {
                     </div>
                     {/* social icons */}
                   </div>
-                  <div className="col-md-4 footer-grid_section_w3layouts my-md-0 my-5">
+                  <div className="col-md-4 footer-grid_section_w3layouts my-md-0">
                     <h3 className="footer-title mb-lg-4 mb-3">Contact Info</h3>
                     <div className="contact-info">
                       <div className="footer-address-inf">
                         <h4 className="ad-info mb-2">Phone</h4>
                         <p>+91 00010209247</p>
                       </div>
-                      <div className="footer-address-inf my-4">
+                      <div className="footer-address-inf ">
                         <h4 className="ad-info mb-2">Email </h4>
                         <p>
                           <a href="mailto:info@example.com">info@example.com</a>
@@ -740,7 +740,7 @@ function Landing() {
           </div>
         </footer>
         {/* //footer */}
-        <div className="cpy-right py-3">
+        <div className="cpy-right py-1">
           <div className="container">
             <div className="row">
               <p className="col-md-10 text-left">
