@@ -1,0 +1,70 @@
+/* report.css */
+.report-page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: verdana, sans-serif;
+    background-color: #2D6A4F;
+    color: #ffffff;
+    padding: 2em;
+}
+
+.report-container {
+    width: 60%;
+    background-color: #081C15;
+    border-radius: 5px;
+    padding: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h2 {
+    margin: 1.5em 0 0.5em;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.info {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #2D6A4F;
+    border-radius: 5px;
+}
+
+.responses {
+    margin: 1em 0;
+}
+
+.response-item {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #2D6A4F;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.back-button {
+    margin-top: 2em;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #97728D;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #85576a;
+}

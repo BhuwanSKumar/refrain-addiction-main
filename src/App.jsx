@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import {
   Home,
   Assessment,
@@ -29,6 +29,8 @@ import Consultant from './pages/Consultant';
 import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
 import Meet from './pages/Meet';
+import Survey from './pages/Survey'; // Import Survey
+import Report from './pages/Report'; // Import Report
 
 function App() {
   return (
@@ -61,6 +63,8 @@ function App() {
         <Route exact path="/dashboard" element={<Dashboard />} />
         <Route exact path="/admindashboard" element={<AdminDashboard />} />
         <Route exact path="/userdata" element={<Userdata />} />
+        <Route path="/survey" element={<Survey />} /> {/* Survey route */}
+        <Route path="/report" element={<Report />} /> {/* Report route */}
       </Routes>
     </div>
   );

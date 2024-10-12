@@ -5,28 +5,23 @@
 @tailwind utilities;
 
 @layer base {
-    .main-page html {
-        /* Wrapping in .main-page */
+    html {
         @apply font-Montserrat;
     }
 
-    .main-page body {
-        /* Wrapping in .main-page */
+    body {
         background: #f1f1f1;
     }
 
-    .main-page h1 {
-        /* Wrapping in .main-page */
+    h1 {
         @apply text-xl font-medium capitalize;
     }
 }
 
-.main-page .link {
-    /* Wrapping in .main-page */
+.link {
     @apply p-2.5 flex rounded-md gap-6 items-center cursor-default duration-300 font-medium;
 }
 
-.main-page .active {
-    /* Wrapping in .main-page */
+.active {
     @apply bg-blue-100 text-blue-600;
 }

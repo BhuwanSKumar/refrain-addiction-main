@@ -32,7 +32,78 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.survey-button {
+  background: #ccc9c6;
+  /* Gradient background for more appeal */
+  color: black;
+  /* White text on a colored background */
+  padding: 50px 0;
+  /* More padding for a spacious look */
+  border-radius: 10px;
+  /* Optional rounded corners for a modern look */
+  box-shadow: 0 5px 15px rgba(65, 62, 62, 0.2);
+  /* Subtle shadow for depth */
+}
+
+.survey-button h3 {
+  font-size: 2.5rem;
+  /* Larger heading */
+  font-weight: bold;
+  /* Bold for emphasis */
+}
+
+.survey-button p.lead {
+  font-size: 1.2rem;
+  /* Slightly larger text for emphasis */
+  font-weight: 300;
+  /* Light font for elegance */
+}
+
+.survey-button .btn-primary {
+  background-color: turquoise;
+  /* More vibrant button color */
+  border: none;
+  /* Remove button border */
+  padding: 15px 30px;
+  /* Larger button with more padding */
+  font-size: 1.2rem;
+  /* Larger font size for the button */
+  border-radius: 30px;
+  /* Rounded button for a modern look */
+  transition: background-color 0.3s ease;
+  /* Smooth transition effect */
+}
+
+.survey-button .btn-primary:hover {
+  background-color: rgb(13, 182, 165);
+  /* Darker shade on hover for contrast */
+}
+
+.survey-button .text-muted {
+  font-size: 0.9rem;
+
+}
+
+.survey-button .container {
+  max-width: 800px;
+  /* Restrict width for better alignment */
+  margin: 0 auto;
+  /* Center the container */
+}
+
+#paragh2 {
+  color: crimson;
+}
+
+#paragh1,
+#paragh3 {
+  color: black;
+  font-weight: 500px;
+  padding: 25px;
 }
