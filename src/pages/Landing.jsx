@@ -578,24 +578,24 @@ function Landing() {
               <div className="testimonials_grid">
                 <div className='flex justify-center mb-4'>
                   <span className="fa fa-quote-left mr-2" aria-hidden="true" />
-                <p className="sub-test editContent">Great website! I would recommend it to all my friends who are seeking for help :P</p>
+                <p className="sub-test editContent text-center">Great website! I would recommend it to all my friends who are seeking for help :P</p>
                 <span className="fa fa-quote-right ml-2" aria-hidden="true" />
                 </div>
 
-                <div className='flex'>
-                  <div className="testi_grid mr-4">
-                  <img src={client1} alt=" " className="img-fluid h-40 w-40 mx-2" />
-                  <h5>Thomas Carl</h5>
-                  <label>I used this website to overcome my addiction of consuming alcohol. </label>
+                <div className='testimonials_wrapper flex flex-wrap justify-content-center'>
+                  <div className="testi_grid mr-4 mb-4 text-center">
+                  <img src={client1} alt=" " className="img-fluid h-40 w-40 mx-auto rounded-full" />
+                  <h5 className="mt-3">Thomas Carl</h5>
+                  <label className="text-gray-600">I used this website to overcome my addiction of consuming alcohol. </label>
                 </div>
-                <div className="testi_grid mr-4 ">
-                  <img src={client2} alt=" " className="img-fluid h-40 w-40 ml-3" />
-                  <h5>Lana Del Ray</h5>
+                <div className="testi_grid mr-4 mb-4 text-center">
+                  <img src={client2} alt=" " className="img-fluid h-40 w-40 mx-auto rounded-full" />
+                  <h5 className="mt-3">Lana Del Ray</h5>
                   <label>This website boosted my confidence and motivated me to overcome my addiction.</label>
-                </div><div className="testi_grid gap-8">
-                  <img src={client3} alt=" " className="img-fluid h-40 w-40" />
-                  <h5>Ana De armas</h5>
-                  <label>I used this website to overcome my addiction of consuming alcohol. </label>
+                </div><div className="testi_grid mb-4 text-center">
+                  <img src={client3} alt=" " className="img-fluid h-40 w-40 mx-auto rounded-full" />
+                  <h5 className="mt-3">Ana De armas</h5>
+                  <label className="text-gray-600">I used this website to overcome my addiction of consuming alcohol. </label>
                 </div>
                 </div>
               </div>

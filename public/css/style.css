@@ -854,6 +854,42 @@ ul.tic-info li {
 /* //popup */
 /* //gallery page */
 /*--testimonials--*/
+
+
+.testimonials_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+  }
+  
+  .testi_grid {
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; 
+  }
+  
+  @media (max-width: 768px) {
+    .testi_grid {
+      flex: 1 1 100%; 
+      margin-bottom: 20px;
+    }
+  }
+  
+  .sub-test {
+    font-size: clamp(1rem, 2vw, 1.5rem); 
+  }
+  
+  .title-w3pvt {
+    font-size: clamp(1.5rem, 3vw, 2rem); 
+  }
+  
+  
 .testimonials {
     background: #1e272e;
 }
