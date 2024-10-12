@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
-import { sbIcon,client1,client2,client3,confi } from '../assets';
+import { sbIcon, client1, client2, client3, confi } from '../assets';
 
 function Landing() {
   return (
@@ -35,7 +35,7 @@ function Landing() {
                     </label>
                     <input type="checkbox" id="drop" />
                     <ul className="menu mt-3">
-                  
+
                       <li>
                         <Link to="/loginc">
                           <button className="menu">
@@ -268,6 +268,20 @@ function Landing() {
           </div>
         </section>
         {/* //banner-bottom */}
+
+        {/* Survey Button Section */}
+        <section className="survey-button text-center py-5">
+          <div className="container">
+            <h3 className="mb-4">Take Our Personalized Addiction Assessment</h3>
+            <p id='paragh1'>We value your well-being. Participate in our brief survey to receive a personalized report on your drug addiction level.</p>
+            <p className="mb-4" id='paragh2'>Your responses will help us provide you with tailored support and resources.</p>
+            <a href="/survey" className="read btn mt-3">Start Survey</a>
+            <p id='paragh3'>It only takes a few minutes, and the insights can make a real difference.</p>
+          </div>
+        </section>
+        {/* //Survey Button Section */}
+
+
         {/* /last-content */}
         <section className="last-content">
           <div className="overlay-last">
@@ -578,25 +592,25 @@ function Landing() {
               <div className="testimonials_grid">
                 <div className='flex justify-center mb-4'>
                   <span className="fa fa-quote-left mr-2" aria-hidden="true" />
-                <p className="sub-test editContent">Great website! I would recommend it to all my friends who are seeking for help :P</p>
-                <span className="fa fa-quote-right ml-2" aria-hidden="true" />
+                  <p className="sub-test editContent">Great website! I would recommend it to all my friends who are seeking for help :P</p>
+                  <span className="fa fa-quote-right ml-2" aria-hidden="true" />
                 </div>
 
                 <div className='flex'>
                   <div className="testi_grid mr-4">
-                  <img src={client1} alt=" " className="img-fluid h-40 w-40 mx-2" />
-                  <h5>Thomas Carl</h5>
-                  <label>I used this website to overcome my addiction of consuming alcohol. </label>
-                </div>
-                <div className="testi_grid mr-4 ">
-                  <img src={client2} alt=" " className="img-fluid h-40 w-40 ml-3" />
-                  <h5>Lana Del Ray</h5>
-                  <label>This website boosted my confidence and motivated me to overcome my addiction.</label>
-                </div><div className="testi_grid gap-8">
-                  <img src={client3} alt=" " className="img-fluid h-40 w-40" />
-                  <h5>Ana De armas</h5>
-                  <label>I used this website to overcome my addiction of consuming alcohol. </label>
-                </div>
+                    <img src={client1} alt=" " className="img-fluid h-40 w-40 mx-2" />
+                    <h5>Thomas Carl</h5>
+                    <label>I used this website to overcome my addiction of consuming alcohol. </label>
+                  </div>
+                  <div className="testi_grid mr-4 ">
+                    <img src={client2} alt=" " className="img-fluid h-40 w-40 ml-3" />
+                    <h5>Lana Del Ray</h5>
+                    <label>This website boosted my confidence and motivated me to overcome my addiction.</label>
+                  </div><div className="testi_grid gap-8">
+                    <img src={client3} alt=" " className="img-fluid h-40 w-40" />
+                    <h5>Ana De armas</h5>
+                    <label>I used this website to overcome my addiction of consuming alcohol. </label>
+                  </div>
                 </div>
               </div>
             </div>

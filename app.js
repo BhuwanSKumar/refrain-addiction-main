@@ -84,11 +84,28 @@ const appointmentSchema = new mongoose.Schema({
     default: Date.now,
   },
 });
+const surveySchema = new mongoose.Schema({
+  userId: {
+    type: String,
+    required: true,
+  },
+  answers: {
+    type: Array, // You can specify the type of answers if needed
+    required: true,
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now,
+  },
+});
+
+const Survey = mongoose.model('Survey', surveySchema);
+
 const Consultant = mongoose.model('consultant', consultantSchema);
 const Admin = mongoose.model('admin', adminSchema);
 const Appointment = mongoose.model('Appointment', appointmentSchema);
-app.get('/', cors(), (req, res) => {});
-app.get('/consultant', cors(), (req, res) => {});
+app.get('/', cors(), (req, res) => { });
+app.get('/consultant', cors(), (req, res) => { });
 app.get('/api/consultants', async (req, res) => {
   try {
     const consultants = await Consultant.find();
@@ -225,6 +242,35 @@ app.post('/register', async (req, res) => {
     }
   } catch (e) {
     res.json('fail');
+  }
+});
+
+app.post('/api/surveys', async (req, res) => {
+  const { userId, answers } = req.body;
+
+  const surveyData = {
+    userId,
+    answers,
+  };
+
+  try {
+    await Survey.create(surveyData);
+    res.json({ message: 'Survey submitted successfully' });
+  } catch (error) {
+    console.error('Error submitting survey:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
+
+app.get('/api/surveys/:userId', async (req, res) => {
+  const { userId } = req.params;
+
+  try {
+    const surveys = await Survey.find({ userId });
+    res.json(surveys);
+  } catch (error) {
+    console.error('Error fetching surveys:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
   }
 });
 

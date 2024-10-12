@@ -51,6 +51,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .card__note-accent {
     font-weight: 400;
     font-size: 16px;
@@ -62,16 +63,19 @@
     color: #6691d6;
     border-radius: 18px;
 }
+
 .card__note-decoration {
     height: 24px;
     width: 24px;
 }
+
 .card__note-header {
     padding-left: 20px;
     padding-bottom: 15px;
     display: flex;
     align-items: flex-end;
 }
+
 .card__note-icon {
     font-size: 24px;
     margin-top: 5px;
@@ -80,6 +84,7 @@
 .card__note-list {
     margin: 0;
 }
+
 .card__text {
     font-weight: 500;
     font-size: 16px;
@@ -100,16 +105,19 @@
     background-size: 100% 100%;
     opacity: 0.8;
 }
+
 .card_order {
     background: url(../../public/images/card_order.png);
     background-size: 100% 100%;
     opacity: 0.8;
 }
+
 .card_pomodoro {
     background: url(../../public/images/card_pomodoro.png);
     background-size: 100% 100%;
     opacity: 0.8;
 }
+
 .card_stress {
     background: url(../../public/images/card_stress.png);
     background-size: 100% 100%;
@@ -237,6 +245,7 @@ ul {
     margin: 0;
     color: var(--text-gray);
 }
+
 .collapsible-card__title {
     font-size: 20px;
     line-height: 19px;
@@ -244,6 +253,7 @@ ul {
     margin: 0;
     color: var(--text-main);
 }
+
 .collapsible-card_expanded {
     display: flex;
 }
@@ -262,6 +272,7 @@ ul {
     animation: wiggle 0.35s ease;
     cursor: pointer;
 }
+
 .comments__bubble {
     width: 48%;
     background: var(--primary-light);
@@ -280,6 +291,7 @@ ul {
         margin: 0;
     }
 }
+
 .comments__bubble-avatar {
     height: 32px;
     width: 32px;
@@ -312,6 +324,7 @@ ul {
     margin: 0;
     padding-left: 15px;
 }
+
 .comments__button {
     box-sizing: border-box;
     border-radius: 40px;
@@ -433,6 +446,7 @@ ul {
         gap: 20px;
     }
 }
+
 .footer__column ul {
     list-style: none;
     padding: 0;
@@ -470,6 +484,7 @@ ul {
         gap: 6px;
     }
 }
+
 .footer__links {
     font-size: 16px;
     line-height: 18px;
@@ -553,6 +568,7 @@ ul {
         padding-bottom: 48px;
     }
 }
+
 .footer {
     max-width: 1220px;
     background-color: white;
@@ -613,6 +629,7 @@ ul {
         padding-right: 0px;
     }
 }
+
 .hero__container {
     max-width: 1120px;
     height: 320px;
@@ -699,6 +716,7 @@ ul {
         left: calc(50%);
     }
 }
+
 .hero__title {
     font-size: 46px;
     font-weight: 600;
@@ -792,6 +810,7 @@ ul {
         content: "";
     }
 }
+
 .tips {
     /* max-width: 120px;
     display: flex; */
@@ -834,6 +853,7 @@ ul {
         padding-top: 33px;
     }
 }
+
 .podcast__show {
     max-width: 800px;
     padding-top: 68px;

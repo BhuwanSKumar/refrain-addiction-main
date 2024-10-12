@@ -7,29 +7,28 @@ import moji1 from '../assets/comments__bubble-avatar-1.png';
 import moji3 from '../assets/comments__bubble-avatar-2.png';
 import moji5 from '../assets/comments__bubble-avatar-3.png';
 import moji6 from '../assets/comments__bubble-avatar-4.png';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+  const navigate = useNavigate();
+
+
   return (
     <>
-
-      <div className='flex'>
-          <div className='h-screen sticky top-0'>
-            < Sidebar />
-          </div>
-          <div style={{ position:"relative" , width: "800px", paddingTop:"4px", margin:"auto"  }}>
-            <section class="hero">
-
-            <img
-              class="hero__image"
-              src="./images/hero__image.svg"
-              alt="hero"
-            />
+      <div className="flex">
+        <div className="h-screen sticky top-0">
+          <Sidebar />
+        </div>
+        <div style={{ position: 'relative', width: '800px', paddingTop: '4px', margin: 'auto' }}>
+          <section class="hero">
+            <img class="hero__image" src="./images/hero__image.svg" alt="hero" />
             <div class="hero__container">
               <div class="hero__container_left">
                 <h1 class="hero__title">
                   Your mental health kit in the form of
                   <span class="underline"> therapy talks</span>
                 </h1>
+
               </div>
               <div class="hero__container_right">
                 <ul class="hero__list">
@@ -37,14 +36,10 @@ function Home() {
                     Here you can listen to mental health podcasts.
                   </li>
                   <li class="hero__paragraph">
-                    The content is available to those seeking guidance from
-                    professionals who specialize in treating mental health
-                    issues.
+                    The content is available to those seeking guidance from professionals who specialize in treating mental health issues.
                   </li>
                   <li class="hero__paragraph">
-                    We offers live sessions with doctors where you can ask
-                    questions and get advice from people with similar health
-                    problems.
+                    We offer live sessions with doctors where you can ask questions and get advice from people with similar health problems.
                   </li>
                 </ul>
               </div>
@@ -60,11 +55,7 @@ function Home() {
             <div className="flex flex-wrap container mx-auto mb-12 ">
               <div className="mt-8 bg-blue-100 mx-4 border-solid border-2 border-blue-200 rounded-3xl p-3 w-80">
                 <div className="flex text-blue-500 font-bold text-xl mb-2">
-                  <img
-                    className="h-10 w-9 ml-2 mr-2"
-                    src={moji1}
-                    alt="mojimem"
-                  />
+                  <img className="h-10 w-9 ml-2 mr-2" src={moji1} alt="mojimem" />
                   🥶Anonymous
                 </div>
                 <div>
@@ -78,11 +69,7 @@ function Home() {
 
               <div className="mt-8 bg-blue-100 mx-4 border-solid border-2 border-blue-200 rounded-3xl p-3 w-80">
                 <div className="flex text-blue-500 font-bold text-xl mb-2">
-                  <img
-                    className="h-10 w-9 ml-2 mr-2"
-                    src={moji3}
-                    alt="mojimem"
-                  />
+                  <img className="h-10 w-9 ml-2 mr-2" src={moji3} alt="mojimem" />
                   Anonymous✨✅
                 </div>
                 <div>
@@ -94,13 +81,9 @@ function Home() {
                 </div>
               </div>
 
-              <div className=" mt-8 bg-blue-100 mx-4 border-solid border-2 border-blue-200 rounded-3xl p-3 w-80">
+              <div className="mt-8 bg-blue-100 mx-4 border-solid border-2 border-blue-200 rounded-3xl p-3 w-80">
                 <div className="flex text-blue-500 font-bold text-xl mb-2">
-                  <img
-                    className="h-10 w-9 ml-2 mr-2"
-                    src={moji5}
-                    alt="mojimem"
-                  />
+                  <img className="h-10 w-9 ml-2 mr-2" src={moji5} alt="mojimem" />
                   Anonymous🚀
                 </div>
                 <div>
@@ -112,13 +95,9 @@ function Home() {
                 </div>
               </div>
 
-              <div className=" mt-8 bg-blue-100 mx-4 border-solid border-2 border-blue-200 rounded-3xl p-3 w-80">
+              <div className="mt-8 bg-blue-100 mx-4 border-solid border-2 border-blue-200 rounded-3xl p-3 w-80">
                 <div className="flex text-blue-500 font-bold text-xl mb-2">
-                  <img
-                    className="h-10 w-9 ml-2 mr-2"
-                    src={moji6}
-                    alt="mojimem"
-                  />
+                  <img className="h-10 w-9 ml-2 mr-2" src={moji6} alt="mojimem" />
                   Anonymous😛
                 </div>
                 <div>
