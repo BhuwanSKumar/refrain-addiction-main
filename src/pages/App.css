@@ -14,18 +14,45 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #282c34; /* Header background */
+  min-height: 100vh; /* Minimum height */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(10px + 2vmin); /* Responsive font size */
+  color: white; /* Default text color */
 }
 
+/* Link Styles */
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Default link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover Effect for Links */
+.App-link:hover {
+  color: #fff; /* Change to white on hover */
+}
+
+/* Button Styles */
+.button {
+  background-color: transparent; /* Default background */
+  color: #61dafb; /* Default button text color */
+  border: 2px solid transparent; /* Initial border */
+  padding: 10px 20px; /* Button padding */
+  margin: 10px; /* Margin for spacing */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease; /* Smooth transition */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Hover Effect for Buttons */
+.button:hover {
+  background-color: #61dafb; /* Background color on hover */
+  color: white; /* Text color on hover */
+  border: 2px solid #282c34; /* Border color on hover */
 }
 
 @keyframes App-logo-spin {
